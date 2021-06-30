@@ -29,15 +29,6 @@ const char* password = "20.06.2019";
 
 int ERR_TEMP_COUNT=0;
 
-// const char* ssid = "pinguin";
-// const char* password = "BulkaiMaslo@1";
-
-//const char* ssid = "aaa";
-//const char* password = "munia@12";
-
-// const char* ssid = "pingwin";
-// const char* password = "Ten2Sor2Fizyka@1";
-
 String serverName = "http://woojtekk.pl/update.php";
 //
 #define EEPROM_write(address, p) {int i = 0; byte *pp = (byte*)&(p);for(; i < sizeof(p); i++) EEPROM.write(address+i, pp[i]);EEPROM.commit();}
